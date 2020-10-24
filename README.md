@@ -1,1 +1,37 @@
-# variables-10
+# Introduction to loops
+
+On the left, you will see our now familiar program for calculating the seven times table. In the last exercise, you learned that although the variable `timesTable` is an array that is treated differently to the variable `table` each of the elements of the array `timesTable` (e.g. `timesTable[3]`) is a single number just like table.  This is an important realisation but it didn't help us to reduce the number of lines in the code further.  To reduce the number of lines we are, in this exercise, going to introduce loops.  To understand what loops do consider this piece of python code:
+
+````
+for i in range(4) :
+    print( i )
+````
+
+When this code runs it will produce the following output:
+
+````
+0
+1
+2
+3
+````
+
+as the loop tells python to repeat instructions in the indented code that sits within the for loop four times.  The first time, however,  `i=0`, the second time `i=1`, the third time  `i=2` and the fourth and final time `i=3`.
+
+To see if you have understood this idea see if you can replace these 11 lines from the code on the left with two lines containing a for loop:
+
+````
+timesTable[0] = 0*table
+timesTable[1]  = 1*table
+timesTable[2]  = 2*table
+timesTable[3]  = 3*table
+timesTable[4]  = 4*table
+timesTable[5]  = 5*table
+timesTable[6]  = 6*table
+timesTable[7]  = 7*table
+timesTable[8]  = 8*table
+timesTable[9]  = 9*table
+timesTable[10]  = 10*table
+````
+
+To pass this test your code must match mine exactly. 
