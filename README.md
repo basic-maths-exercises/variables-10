@@ -18,7 +18,7 @@ When this code runs it will produce the following output:
 
 as the loop tells python to repeat instructions in the indented code that sits within the for loop four times.  The first time, however,  `i=0`, the second time `i=1`, the third time  `i=2` and the fourth and final time `i=3`.
 
-To see if you have understood this idea see if you can replace these 11 lines from the code on the left with two lines containing a for loop:
+To see if you have understood this idea see if you can replace these 11 lines from the code in main.py with two lines containing a for loop:
 
 ````
 timesTable[0] = 0*table
