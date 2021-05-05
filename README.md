@@ -33,3 +33,5 @@ timesTable[8]  = 8*table
 timesTable[9]  = 9*table
 timesTable[10]  = 10*table
 ```` 
+
+__To complete the exercise you need to write a code that uses a for loop to calculate the first eight numbers in the 14 times table__
