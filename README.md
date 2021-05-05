@@ -1,6 +1,6 @@
 # Introduction to loops
 
-On the left, you will see our now familiar program for calculating the seven times table. In the last exercise, you learned that although the variable `timesTable` is an array that is treated differently to the variable `table` each of the elements of the array `timesTable` (e.g. `timesTable[3]`) is a single number just like table.  This is an important realisation but it didn't help us to reduce the number of lines in the code further.  To reduce the number of lines we are, in this exercise, going to introduce loops.  To understand what loops do consider this piece of python code:
+In `main.py`, you will see our now familiar program for calculating the seven times table. In the last exercise, you learned that although the variable `timesTable` is an array that is treated differently to the variable `table` each of the elements of the array `timesTable` (e.g. `timesTable[3]`) is a single number just like table.  This is an important realisation but it didn't help us to reduce the number of lines in the code further.  To reduce the number of lines we are, in this exercise, going to introduce loops.  To understand what loops do consider this piece of python code:
 
 ````
 for i in range(4) :
@@ -32,6 +32,4 @@ timesTable[7]  = 7*table
 timesTable[8]  = 8*table
 timesTable[9]  = 9*table
 timesTable[10]  = 10*table
-````
-
-To pass this test your code must match mine exactly. 
+```` 
