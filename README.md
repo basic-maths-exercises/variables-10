@@ -33,3 +33,5 @@ timesTable[8]  = 8*table
 timesTable[9]  = 9*table
 timesTable[10]  = 10*table
 ```` 
+
+__To pass the test the variable that you use for your loop must be called `i`.__  To be clear, you can use any variable name for a loop variable.  I need you to use `i` here, however, so that I can test if you have used the loop correctly.
