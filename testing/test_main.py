@@ -16,5 +16,5 @@ class UnitTests(unittest.TestCase) :
        x=np.linspace(0,70,11)
        assert( vc.check_vars( "timesTable", x ) ) 
        
-   def no_for_command(self) :
+    def no_for_command(self) :
        assert( inspect.getsource(hypothesisTest).find("for")>0 ) 
